@@ -24,16 +24,16 @@ fs.writeFile('jason.json', data,(err) => {
         throw err;
     }
     console.log("el Json se ha guardado correctamente");
+    fs.readFile('jason.json', 'utf8' , (err, data) => {
+        if (err) {
+          console.error(err)
+          return
+        }
+        console.log(data)
+      })
 });
 
 
-fs.readFile('jason.json', 'utf8' , (err, data) => {
-    if (err) {
-      console.error(err)
-      return
-    }
-    console.log(data)
-  })
 
 
 
