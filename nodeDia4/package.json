@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.2"
+  },
+  "name": "nodedia4",
+  "version": "1.0.0",
+  "main": "reto1Dia4.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
